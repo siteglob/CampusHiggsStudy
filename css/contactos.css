@@ -1,0 +1,154 @@
+
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #007ffe,#ffffff);
+}
+
+header {
+    background-color: #003366;
+    padding: 20px;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+main {
+    padding: 50px;
+    text-align: center;
+
+}
+
+.container{
+  height: 25%;
+  width: 20%;
+  margin: 0 auto;
+  
+
+}
+
+
+
+img{ 
+    
+    width: 22%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25%;
+  }
+  
+h1 {
+    color: #eff0f1;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+h2 {
+    color: #ffc400;
+}
+
+h3 {
+    color: #8BC34A;
+}
+
+p {
+    letter-spacing: 0.1em;
+  
+}
+
+p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.redes-sociales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+footer {
+    background-color: #003366;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Estilos para la sección de contacto */
+
+form {
+    max-width: 220px;
+    padding: 10px;
+    background-color: #0a4581;
+    color: #fff;
+    border-radius: 5px;
+}
+
+li form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+section {
+   
+    background: linear-gradient(to bottom, #13508c, #ffffff);   
+
+}
+
+.img {
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 10px;
+    
+}
+
+.logo img{
+margin: 0 auto;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+
+}
+
+
+.button{
+    background-color: #8BC34A;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+
+
+}
+

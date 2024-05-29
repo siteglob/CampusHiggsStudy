@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: rgb(0, 132, 255);
+    color: rgb(8, 7, 109);
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+/* Estilos para el formulario de inicio de sesión */
+input, button {
+    margin: 10px;
+    padding: 5px;
+}
+
+button {
+    cursor: pointer;
+}
+

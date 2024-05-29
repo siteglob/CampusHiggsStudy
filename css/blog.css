@@ -1,0 +1,98 @@
+:root {
+    --clr: #1e1e1e;
+  }
+  
+  body {
+    background-color: var(--clr);
+    color: #fff;
+  }
+  
+  header {
+    background-color: var(--clr);
+    color: #fff;
+  }
+  
+  header h1 {
+    color: #e0dada;
+  }
+  
+  header h2 {
+    color: #e0dada;
+  }
+  
+  .container{
+    color: #e0dada;
+
+  }
+  h3 {
+    color: #e0dada;
+  }
+  
+  section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  }
+  
+  aside {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  main {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  }
+  
+
+  .tutoria {
+    background-color: #333;
+  }
+  
+  .info {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  }
+  
+  .adultos {
+    background-color: #333;
+  }
+  
+  .contacto {
+    background-color: #333;
+  }
+  
+  .btn {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .btn:hover {
+    background-color: #0069d9;
+    color: #fff;
+  }
+
+
+  .whatsapp-button {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    width: 100px; /* Ajusta el ancho según tus preferencias */
+    height: 100px; /* Ajusta la altura según tus preferencias */
+  }
+  
+    .whatsapp-button {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      padding: 10px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+  
+    .whatsapp-button:hover {
+      background-color: #218838;
+    }
+  
+  
