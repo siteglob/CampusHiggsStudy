@@ -50,6 +50,7 @@ main{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 
 }
 
@@ -100,7 +101,7 @@ header h2{
 
 h3{
   font-size: 1.5rem;
-  color: #00a2ff;
+  color: #00a2ff60;
   margin-bottom: 0.5rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -111,18 +112,18 @@ h3{
 section{
   padding: 2rem;
   margin-bottom: 2rem;  
-  background: radial-gradient(circle, rgb(137, 138, 142) 0%, rgba(239, 221, 221, 0.539) 100%);
-  border: 1px solid #ddd;
+  background: radial-gradient(circle, rgb(241, 241, 241) 0%, rgba(239, 221, 221, 0.539) 100%);
+  border: 1px solid #958c8c00;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(139, 138, 138, 0.1);
 
 }
 
 aside{
-  background-color: #a024cd19;
+  background-color: #e8161619;
   padding: 1rem;
   grid-column: 1 / 2;
-  border: 0.1px solid #0d0d0d29;
+  border: 0.1px solid #f1efef29;
   font-size: 1rem;
   font-weight: 600;
   text-align: center;
@@ -137,7 +138,7 @@ aside{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    background: rgb(178,255,255);
+    background: rgb(57, 169, 169);
 background: linear-gradient(81deg, rgba(178,255,255,1) 0%, rgba(180,186,186,1) 27%, rgba(220,223,223,1) 49%, rgba(220,223,223,1) 68%, rgba(255,203,203,1) 96%);
 
   }
@@ -180,7 +181,7 @@ background: linear-gradient(81deg, rgba(178,255,255,1) 0%, rgba(180,186,186,1) 2
 
 p{
   font-size: 0.9rem;
-  color: #5c1414ab;
+  color: #010101ab;
 
 }
 
@@ -191,10 +192,10 @@ p{
   padding: 1rem; 
   display: flex;
   justify-content: space-between;
-  background: linear-gradient(90deg, rgba(50, 50, 50, 0.369) 0%, rgba(120, 119, 118, 0.722) 46%, rgba(130, 130, 130, 0.738) 100%);
+  background: linear-gradient(90deg, rgba(217, 111, 30, 0.864) 0%, rgba(199, 121, 44, 0.722) 46%, rgba(234, 204, 204, 0.738) 100%);
  
 }
-
+*/
 .info p{
   font-size: 1rem;
   color: #e0dada;
@@ -210,8 +211,8 @@ p{
 }
 
 .contacto{
-  padding: 1%;
-  margin-bottom: 1%;
+  padding: 0.2%;
+  margin-bottom: 0.5%;
   border-style:dotted;
   display: flex;
   flex-direction: column;
@@ -220,8 +221,8 @@ p{
 }
 
 .btn {
-  border-radius: 50%;
-  background-color: #860303b4;
+  border-radius: 0%;
+  background-color: #f35511;
   color: #ffffff;
   border: none;
   padding: 2.5px 20px;
@@ -231,7 +232,7 @@ p{
 }
 
 .btn:hover {
-  background-color: #0069d9;
+  background-color: #2d2f30;
   color: #ffffff;
   
 }
@@ -243,7 +244,7 @@ p{
 
 ul li button {
   display: inline-block;
-  background-color: #49d5bb;
+  background-color: #98e3d6;
   color: rgb(255, 255, 255);
   padding: 15px 20px;
   border-color: #00a2ff;
@@ -257,7 +258,7 @@ ul li button:hover {
 }
 
 ul li button h4 {
-  margin: 0;
+  margin: 40%;
 }
 
 /* Style the container */
@@ -271,7 +272,7 @@ ul li button h4 {
   width: 100%; /* Make the button full width */
   background-color: #4CAF50; /* Green background color */
   color: #ffffff; /* White text color */
-  padding: 16px 32px; /* Add some padding */
+  padding: 10px 42px; /* Add some padding */
   border: none; /* Remove the default border */
   border-radius: 5px; /* Add a rounded corner */
   cursor: pointer; /* Change the cursor to a pointer on hover */
@@ -287,4 +288,13 @@ ul li button h4 {
 .full-width-button span {
   font-size: 14px; /* Smaller font size for the promotional text */
   font-weight: bold; /* Bold font weight for the promotional text */
+}
+
+footer{
+  background-color: #e2e8eb;
+  color: #d5c6c6;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.8rem;
+  
 }
