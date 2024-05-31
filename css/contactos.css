@@ -1,154 +1,71 @@
 
-
-/* Estilos generales */
-body {
-    font-family: Arial, sans-serif;
+*{
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #007ffe,#ffffff);
+    box-sizing: border-box;
+
 }
 
-header {
-    background-color: #003366;
-    padding: 20px;
-    color: #fff;
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-nav ul li {
-    margin-right: 10px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 5px 10px;
-}
-
-main {
-    padding: 50px;
+body{
+    background-color: rgb(0, 132, 255);
+    color: rgb(8, 7, 109);
+    font-size: 1.5em;
     text-align: center;
 
 }
 
-.container{
-  height: 25%;
-  width: 20%;
-  margin: 0 auto;
-  
+header{
 
+    background-color: #d57272e0;
+    padding: 10px 0;
+    text-align: center;
+    font: caption;
+    color: white;
 }
 
 
+h1{
+    text-align: center;
+    margin: 20px 0;
+    color: #ffffff;
+}
 
-img{ 
-    
-    width: 22%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 25%;
+img{
+    height: 50%;
+    width: 50%;
+    margin-bottom: 20px;
+
+}
+
+.whatsapp-button {
+    position:relative;
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }  
+  .img-what {
+    width: 100%; /* Make the image container take full width */
+    max-width: 300px; /* Set a maximum width for responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 80%; /* Keep rounded corners */
+    padding: 10px; /* Add padding around the image */
+    background-color: rgb(0, 255, 60); /* Background color for the button */
+    cursor: pointer; /* Indicate clickable area */
   }
   
-h1 {
-    color: #eff0f1;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-}
-h2 {
-    color: #ffc400;
-}
-
-h3 {
-    color: #8BC34A;
-}
-
-p {
-    letter-spacing: 0.1em;
+  /* Add animation on scroll */
+  @media (prefers-reduced-motion: no-preference) {
+    .whatsapp-button {
+      animation: moveUp 5s ease-in-out infinite;
+    }
+  }
   
-}
-
-p {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.redes-sociales{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-footer {
-    background-color: #003366;
-    padding: 20px;
-    color: #fff;
-    text-align: center;
-}
-
-footer p {
-    margin: 0;
-}
-
-footer a {
-    color: #fff;
-    text-decoration: none;
-}
-
-
-/* Estilos para la sección de contacto */
-
-form {
-    max-width: 220px;
-    padding: 10px;
-    background-color: #0a4581;
-    color: #fff;
-    border-radius: 5px;
-}
-
-li form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-
-}
-
-section {
-   
-    background: linear-gradient(to bottom, #13508c, #ffffff);   
-
-}
-
-.img {
-    max-width: 100%; 
-    height: auto; 
-    margin-bottom: 10px;
-    
-}
-
-.logo img{
-margin: 0 auto;
-width: 200px;
-height: 200px;
-border-radius: 50%;
-
-}
-
-
-.button{
-    background-color: #8BC34A;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 20px;
-    transition: background-color 0.3s ease;
-
-
-}
-
+  @keyframes moveUp {
+    0% { transform: translateY(0px); }
+    100% { transform: translateY(-30px); }
+  }
+  
