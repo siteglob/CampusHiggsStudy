@@ -259,3 +259,32 @@ ul li button:hover {
 ul li button h4 {
   margin: 0;
 }
+
+/* Style the container */
+.button-container {
+  width: 100%; /* Make the container full width */
+  text-align: center; /* Center the button horizontally */
+}
+
+/* Style the button */
+.full-width-button {
+  width: 100%; /* Make the button full width */
+  background-color: #4CAF50; /* Green background color */
+  color: #ffffff; /* White text color */
+  padding: 16px 32px; /* Add some padding */
+  border: none; /* Remove the default border */
+  border-radius: 5px; /* Add a rounded corner */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+}
+
+/* Style the link inside the button */
+.full-width-button a {
+  text-decoration: none; /* Remove the underline */
+  color: #ffffff; /* White text color */
+}
+
+/* Style the promotional text */
+.full-width-button span {
+  font-size: 14px; /* Smaller font size for the promotional text */
+  font-weight: bold; /* Bold font weight for the promotional text */
+}
