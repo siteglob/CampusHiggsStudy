@@ -298,3 +298,16 @@ footer{
   font-size: 0.8rem;
   
 }
+
+.Sesion{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 82vh;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(90deg, rgba(35, 35, 35, 0.864) 0%, rgba(44, 155, 199, 0.722) 46%, rgba(18, 17, 17, 0.738) 100%);
+  
+}
