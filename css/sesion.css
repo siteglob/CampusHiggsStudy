@@ -17,6 +17,18 @@ body {
     width: 300px;
 }
 
+.password-container {
+    position: relative;
+}
+
+.password-container i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
 form {
     display: flex;
     flex-direction: column;
