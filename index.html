@@ -30,12 +30,26 @@
     </video>
 
 <div class="Sesion">
+
+    <div class="Sesion">
       <form id="loginForm">
-        <input type="text" id="username" placeholder="Nombre de usuario" required>
-        <input type="password" id="password" placeholder="Contraseña" required>
-        <button type="submit">Iniciar sesión</button>
+          <h2>Iniciar sesión</h2>
+          <input type="text" id="username" placeholder="Nombre de usuario" required>
+          <input type="password" id="password" placeholder="Contraseña" required>
+          <button type="submit">Iniciar sesión</button>
       </form>
-    </div>
+  </div>
+  <div class="Registro">
+      <form id="registerForm">
+          <h2>Registrarse</h2>
+          <input type="text" id="newUsername" placeholder="Nombre de usuario" required>
+          <input type="email" id="email" placeholder="Correo electrónico" required>
+          <input type="password" id="newPassword" placeholder="Contraseña" required>
+          <input type="password" id="confirmPassword" placeholder="Confirmar contraseña" required>
+          <button type="submit">Registrarse</button>
+      </form>
+  </div>
+  </div>
 
   </header>
 
@@ -134,8 +148,10 @@
       </p>-->
 
     </main>
+<!--npm install express mongoose body-parser-->
+<!--se coloca en la raíz el codigo y se instala-->
 
-
+<script src="logic/logic-client-registro.js"></script>
 </body>
 <footer>
   <div class="footer-content">

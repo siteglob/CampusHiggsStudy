@@ -142,5 +142,9 @@ temp/
 .DS_Store
 Thumbs.db
 
+#sesion
+app.js
+logic-client-registro.js
 # Ignorar el archivo de configuración de entorno
 env.js
+

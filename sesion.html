@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión y Registro</title>
+    <link rel="stylesheet" href="css/sesion.css">
+    
+</head>
+<body>
+    <div class="Sesion">
+        <form id="loginForm">
+            <h2>Iniciar sesión</h2>
+            <input type="text" id="username" placeholder="Nombre de usuario" required>
+            <input type="password" id="password" placeholder="Contraseña" required>
+            <button type="submit">Iniciar sesión</button>
+        </form>
+    </div>
+    <div class="Registro">
+        <form id="registerForm">
+            <h2>Registrarse</h2>
+            <input type="text" id="newUsername" placeholder="Nombre de usuario" required>
+            <input type="email" id="email" placeholder="Correo electrónico" required>
+            <input type="password" id="newPassword" placeholder="Contraseña" required>
+            <input type="password" id="confirmPassword" placeholder="Confirmar contraseña" required>
+            <button type="submit">Registrarse</button>
+        </form>
+    </div>
+    <script src="logic/logic-client-registro.js"></script>
+</body>
+</html>
